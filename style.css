@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "DM sans";
+}
+.header span{
+    color: #a27b5c;
+}
+.header{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 26PX;
+
+}
+.box{
+    background:#a27b5c ;
+padding: 17px 40px;
+border: none;
+font-size: 20px;
+color: white;
+}
+
+.box2{
+    background:white ;
+
+padding: 14px 37px;
+border: 2px solid #a27b5c ;
+font-size: 20px;
+color:  #a27b5c;
+font-weight: bold;
+}
+.main{
+    background: #fcf7ef;
+    height: 600px;
+    padding: 70px 0px;
+    margin-bottom: 150px;
+
+}
+.main h1{
+    font-size: 96px;
+    padding: 19px;
+    text-align: center;
+
+
+}
+.main p{
+    text-align: center;
+
+}
+.main img{
+    width: 950px;
+    height: 400px;
+    margin-top: 12px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.main h2,h6{
+    font-size: 27px;
+    margin-left: 150px;
+}
+.main h6{
+    color: rgb(155, 149, 149);
+    font-weight: 200;
+}
+
+
+
+
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 2px  solid gray;
+    border-top: 1px  solid gray;
+}
+.blog p{
+    color: rgb(155, 149, 149);
+    font-weight: 200;
+}
+.blog img{
+    width: 261px;
+    height:200px;
+
+}
+.blog h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-addres{
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid white;
+}
+.footer-addres h1{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.footer-addres p{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.icon-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.icon-left i{
+    padding: 5px;
+}
+.icon-right{
+    display: flex;
+    gap: 20px;
+}
+.icon-right p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.par{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.par p{
+    padding-top: 40px;
+    font-size: 15px;
+    color: #204E51;
+}
